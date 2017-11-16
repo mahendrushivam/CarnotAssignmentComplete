@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="400dp">
+        <GridView
+            android:layout_width="match_parent"
+            android:numColumns="2"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:id="@+id/urlList"
+            android:layout_marginLeft="@dimen/dimen_20"
+            android:layout_marginRight="@dimen/dimen_20"
+            android:layout_height="match_parent"
+            ></GridView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+
+            android:background="#f9fafa"
+            android:elevation="@dimen/dimen_4"
+            android:paddingLeft="@dimen/dimen_16"
+            android:paddingRight="@dimen/dimen_24"
+            android:paddingBottom="@dimen/dimen_16"
+
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_14"
+    android:layout_weight="1">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:textAllCaps="false"
+                    android:elevation="@dimen/dimen_4"
+                    android:background="#77a6ed"
+                    android:textSize="@dimen/dimen_18"
+                    android:textColor="#fff"
+                    android:textStyle="italic"
+android:id="@+id/btn1"
+                    android:layout_height="wrap_content"
+                    android:text="Button 1 "/>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+            android:elevation="@dimen/dimen_4"
+
+            android:background="#77a6ed"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:textSize="@dimen/dimen_18"
+            android:textColor="#fff"
+            android:textStyle="italic"
+android:id="@+id/btn2"
+            android:layout_height="wrap_content"
+            android:text="Button 2"/>
+
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:layout_weight="1">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:textAllCaps="false"
+                        android:elevation="@dimen/dimen_4"
+                        android:background="#77a6ed"
+                        android:textSize="@dimen/dimen_18"
+                        android:textColor="#fff"
+                        android:textStyle="italic"
+android:id="@+id/btn3"
+                        android:layout_height="wrap_content"
+                        android:text="Button 3 "/>
+
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:textAllCaps="false"
+                        android:elevation="@dimen/dimen_4"
+                        android:background="#77a6ed"
+                        android:textSize="@dimen/dimen_18"
+                        android:textColor="#fff"
+                        android:id="@+id/btn4"
+                        android:textStyle="italic"
+                        android:layout_marginLeft="@dimen/dimen_16"
+                        android:layout_height="wrap_content"
+                        android:text="Button 4"/>
+            </LinearLayout>
+
+
+
+
+
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="@dimen/dimen_4"
+                    android:layout_marginTop="@dimen/dimen_24"
+                    android:textColor="#419cfd"
+                    android:textSize="@dimen/dimen_16"
+                    android:background="#e9ebec"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn5"
+                    android:text="Current Time stamp"/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
